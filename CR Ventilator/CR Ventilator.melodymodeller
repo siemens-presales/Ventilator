@@ -61,51 +61,6 @@
       </ownedExtensions>
       <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="57b23aa9-0a3e-42ae-bd11-69de9fc4c800"
           ReqIFLongName="Polarion Requirements">
-        <ownedRequirements xsi:type="Requirements:Requirement" id="d5a3a3b7-a8e3-450c-bf41-aa401e92fd55"
-            ReqIFIdentifier="DC-9390" ReqIFDescription="The ventilator will have the capability for remote monitoring"
-            ReqIFLongName="The ventilator will have the capability for remote monitoring"
-            ReqIFPrefix="DC-9390" requirementType="#e0585d48-dd0f-4614-8867-ef0216df1539"
-            requirementTypeProxy="Polarion Requirement">
-          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="aac4c433-6018-4dcc-b56f-4770fa5ffea5"
-              definition="#69de6b42-0269-4d4a-b881-c45768ccd937" value="https://fdapolclone2.plmmscloudsolutions.com/polarion/#/project/DesignControl/workitem?id=DC-9390"/>
-          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="e9dc0c46-b14c-446d-bccd-047581a9fb02"
-              definition="#7812dada-a3a3-4f3d-8390-36dd79914005" value="sr"/>
-          <ownedRelations xsi:type="CapellaRequirements:CapellaOutgoingRelation" id="ef5484bd-f34a-4de1-a1b3-8d41ffc953cf"
-              relationType="#837f4117-0577-4492-8560-943518e4818d" relationTypeProxy="Polarion link"
-              source="#8cb393d1-accd-41bc-941e-26ca6ea5a20e" target="#d5a3a3b7-a8e3-450c-bf41-aa401e92fd55"/>
-          <ownedRelations xsi:type="CapellaRequirements:CapellaOutgoingRelation" id="4abb2170-0760-49b4-ac7d-cadc5f5de87e"
-              relationType="#837f4117-0577-4492-8560-943518e4818d" relationTypeProxy="Polarion link"
-              source="#1cd65c99-07c9-4973-87c9-767a722ce462" target="#d5a3a3b7-a8e3-450c-bf41-aa401e92fd55"/>
-        </ownedRequirements>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="8ea41e11-e285-4710-8bad-48380b6d7c14"
-            ReqIFIdentifier="DC-9389" ReqIFDescription="The ventilator will have the capability to authenticate users"
-            ReqIFLongName="The ventilator will have the capability to authenticate users"
-            ReqIFPrefix="DC-9389" requirementType="#e0585d48-dd0f-4614-8867-ef0216df1539"
-            requirementTypeProxy="Polarion Requirement">
-          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="74ff5e6f-8f33-4005-a23a-9d9aa2ddf075"
-              definition="#69de6b42-0269-4d4a-b881-c45768ccd937" value="https://fdapolclone2.plmmscloudsolutions.com/polarion/#/project/DesignControl/workitem?id=DC-9389"/>
-          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="1d51aa28-8113-460a-afa8-f2114bc7e29b"
-              definition="#7812dada-a3a3-4f3d-8390-36dd79914005" value="sr"/>
-          <ownedRelations xsi:type="CapellaRequirements:CapellaOutgoingRelation" id="fbc4f48b-ab8e-41b5-8bac-1f9ddfa25c75"
-              relationType="#837f4117-0577-4492-8560-943518e4818d" relationTypeProxy="Polarion link"
-              source="#b4ba6b3f-e8e7-46b3-973c-95fea80ad4a3" target="#8ea41e11-e285-4710-8bad-48380b6d7c14"/>
-        </ownedRequirements>
-        <ownedRequirements xsi:type="Requirements:Requirement" id="d486d86a-7e1e-43f7-b92b-539f265c82b9"
-            ReqIFIdentifier="DC-9388" ReqIFDescription="The ventilator will have the capability for remote operation"
-            ReqIFLongName="The ventilator will have the capability for remote operation"
-            ReqIFPrefix="DC-9388" requirementType="#e0585d48-dd0f-4614-8867-ef0216df1539"
-            requirementTypeProxy="Polarion Requirement">
-          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="a6cbfd4f-7c36-49a3-aab7-c96e65fe41cf"
-              definition="#69de6b42-0269-4d4a-b881-c45768ccd937" value="https://fdapolclone2.plmmscloudsolutions.com/polarion/#/project/DesignControl/workitem?id=DC-9388"/>
-          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="46740598-f57a-48a0-a207-d41b563b0a98"
-              definition="#7812dada-a3a3-4f3d-8390-36dd79914005" value="sr"/>
-          <ownedRelations xsi:type="CapellaRequirements:CapellaOutgoingRelation" id="db22ef94-37a5-472d-be37-c801b7aceae1"
-              relationType="#837f4117-0577-4492-8560-943518e4818d" relationTypeProxy="Polarion link"
-              source="#4ff4344d-37b0-4ede-9498-8f79ab45a3f9" target="#d486d86a-7e1e-43f7-b92b-539f265c82b9"/>
-          <ownedRelations xsi:type="CapellaRequirements:CapellaOutgoingRelation" id="007a62e8-1dcb-475d-bcec-91bf135a9ddb"
-              relationType="#837f4117-0577-4492-8560-943518e4818d" relationTypeProxy="Polarion link"
-              source="#8cb393d1-accd-41bc-941e-26ca6ea5a20e" target="#d486d86a-7e1e-43f7-b92b-539f265c82b9"/>
-        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="c2a6b7b3-3c5b-47ee-960d-d4a8d455c22c"
             ReqIFIdentifier="DC-9387" ReqIFLongName="The clinician need the ability to ventilate without patient contact"
             ReqIFPrefix="DC-9387" requirementType="#e0585d48-dd0f-4614-8867-ef0216df1539"
@@ -143,6 +98,81 @@
           <ownedRelations xsi:type="CapellaRequirements:CapellaOutgoingRelation" id="c65c6a05-617a-41d0-a998-598407b67ed1"
               relationType="#837f4117-0577-4492-8560-943518e4818d" relationTypeProxy="Polarion link"
               source="#08d766d4-cb69-486f-b81d-e75c782f9300" target="#f4fb0960-32ab-434b-9664-2ae610329e49"/>
+        </ownedRequirements>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="ace94caa-7e78-4b83-97b1-71ac91244b29"
+            ReqIFIdentifier="DC-9824" ReqIFDescription="The ventilator will have the capability for remote monitoring"
+            ReqIFLongName="The ventilator will have the capability for remote monitoring"
+            ReqIFPrefix="DC-9824" requirementType="#e0585d48-dd0f-4614-8867-ef0216df1539"
+            requirementTypeProxy="Polarion Requirement">
+          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="5d6c91e8-9120-4c6b-85ce-b04ede04c1f7"
+              definition="#69de6b42-0269-4d4a-b881-c45768ccd937" value="https://fdapolclone2.plmmscloudsolutions.com/polarion/#/project/DesignControl/workitem?id=DC-9824"/>
+          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="f83c9355-c31e-483a-a9c3-6579ac0a6689"
+              definition="#7812dada-a3a3-4f3d-8390-36dd79914005" value="sr"/>
+          <ownedRelations xsi:type="CapellaRequirements:CapellaOutgoingRelation" id="8be0311f-5be5-48ce-9f26-473e4175467c"
+              relationType="#837f4117-0577-4492-8560-943518e4818d" relationTypeProxy="Polarion link"
+              source="#1cd65c99-07c9-4973-87c9-767a722ce462" target="#ace94caa-7e78-4b83-97b1-71ac91244b29"/>
+        </ownedRequirements>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="2fd1a851-5562-4ce8-b90f-0acaf6e8c2c1"
+            ReqIFIdentifier="DC-9823" ReqIFDescription="The ventilator will have the capability to authenticate users"
+            ReqIFLongName="The ventilator will have the capability to authenticate users"
+            ReqIFPrefix="DC-9823" requirementType="#e0585d48-dd0f-4614-8867-ef0216df1539"
+            requirementTypeProxy="Polarion Requirement">
+          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="4c825e1f-1099-4f1d-8961-a755b14b66cd"
+              definition="#69de6b42-0269-4d4a-b881-c45768ccd937" value="https://fdapolclone2.plmmscloudsolutions.com/polarion/#/project/DesignControl/workitem?id=DC-9823"/>
+          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="9d9bc70a-8d68-4333-b0a0-26df58b12f8c"
+              definition="#7812dada-a3a3-4f3d-8390-36dd79914005" value="sr"/>
+          <ownedRelations xsi:type="CapellaRequirements:CapellaOutgoingRelation" id="c2c020e2-0fd0-41a8-949c-55688b25fd50"
+              relationType="#837f4117-0577-4492-8560-943518e4818d" relationTypeProxy="Polarion link"
+              source="#b4ba6b3f-e8e7-46b3-973c-95fea80ad4a3" target="#2fd1a851-5562-4ce8-b90f-0acaf6e8c2c1"/>
+        </ownedRequirements>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="61d78704-167e-4046-8588-f06f84b353f6"
+            ReqIFIdentifier="DC-9822" ReqIFDescription="The ventilator will have the capability for remote operation"
+            ReqIFLongName="The ventilator will have the capability for remote operation"
+            ReqIFPrefix="DC-9822" requirementType="#e0585d48-dd0f-4614-8867-ef0216df1539"
+            requirementTypeProxy="Polarion Requirement">
+          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="d708b013-3c16-4fa1-9137-14232655fff4"
+              definition="#69de6b42-0269-4d4a-b881-c45768ccd937" value="https://fdapolclone2.plmmscloudsolutions.com/polarion/#/project/DesignControl/workitem?id=DC-9822"/>
+          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="80c37c1c-4ce8-4078-8090-292e8c3d2725"
+              definition="#7812dada-a3a3-4f3d-8390-36dd79914005" value="sr"/>
+          <ownedRelations xsi:type="CapellaRequirements:CapellaOutgoingRelation" id="f1e42ce0-4288-48bd-ab5b-0617383e3ef9"
+              relationType="#837f4117-0577-4492-8560-943518e4818d" relationTypeProxy="Polarion link"
+              source="#4ff4344d-37b0-4ede-9498-8f79ab45a3f9" target="#61d78704-167e-4046-8588-f06f84b353f6"/>
+        </ownedRequirements>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="fd5f3cb0-759d-40ea-96ad-2fe6fc1857ac"
+            ReqIFIdentifier="DC-9821" ReqIFLongName="The system must have the ability to ventilate two patients"
+            ReqIFPrefix="DC-9821" requirementType="#e0585d48-dd0f-4614-8867-ef0216df1539"
+            requirementTypeProxy="Polarion Requirement">
+          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="2e82ef59-89c9-45a5-aefc-5e6fa00e4e8f"
+              definition="#69de6b42-0269-4d4a-b881-c45768ccd937" value="https://fdapolclone2.plmmscloudsolutions.com/polarion/#/project/DesignControl/workitem?id=DC-9821"/>
+          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="8bd32227-c78d-4466-a89b-736b82172f46"
+              definition="#7812dada-a3a3-4f3d-8390-36dd79914005" value="un"/>
+          <ownedRelations xsi:type="CapellaRequirements:CapellaOutgoingRelation" id="eddeb449-56c9-4be1-b9bd-a04e76a9beee"
+              relationType="#837f4117-0577-4492-8560-943518e4818d" relationTypeProxy="Polarion link"
+              source="#49442ef5-a3d0-4d7e-a43c-838de5d9c128" target="#fd5f3cb0-759d-40ea-96ad-2fe6fc1857ac"/>
+        </ownedRequirements>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="841521aa-c8bf-407d-981b-6e9d84caa6d0"
+            ReqIFIdentifier="DC-9857" ReqIFLongName="Device design provides sufficient patient O2 delivery"
+            ReqIFPrefix="DC-9857" requirementType="#e0585d48-dd0f-4614-8867-ef0216df1539"
+            requirementTypeProxy="Polarion Requirement">
+          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="7f3e03e2-85f8-4997-bc2a-ef7f472bd0d7"
+              definition="#69de6b42-0269-4d4a-b881-c45768ccd937" value="https://fdapolclone2.plmmscloudsolutions.com/polarion/#/project/DesignControl/workitem?id=DC-9857"/>
+          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="8e14d96e-2152-41f7-aea3-7c375865c9b4"
+              definition="#7812dada-a3a3-4f3d-8390-36dd79914005" value="un"/>
+          <ownedRelations xsi:type="CapellaRequirements:CapellaOutgoingRelation" id="9282d42b-8e1e-478a-b480-fcffb9f04d33"
+              relationType="#837f4117-0577-4492-8560-943518e4818d" relationTypeProxy="Polarion link"
+              source="#49442ef5-a3d0-4d7e-a43c-838de5d9c128" target="#841521aa-c8bf-407d-981b-6e9d84caa6d0"/>
+        </ownedRequirements>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="797a585d-a03f-4b42-9143-9d5c82b1da8b"
+            ReqIFIdentifier="DC-9874" ReqIFLongName="The system will monitor patient status"
+            ReqIFPrefix="DC-9874" requirementType="#e0585d48-dd0f-4614-8867-ef0216df1539"
+            requirementTypeProxy="Polarion Requirement">
+          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="0eea9c54-9ab1-4cf1-9973-78572fbc35ca"
+              definition="#69de6b42-0269-4d4a-b881-c45768ccd937" value="https://fdapolclone2.plmmscloudsolutions.com/polarion/#/project/DesignControl/workitem?id=DC-9874"/>
+          <ownedAttributes xsi:type="Requirements:StringValueAttribute" id="75237e65-b0b3-4db3-a362-80d19f911f06"
+              definition="#7812dada-a3a3-4f3d-8390-36dd79914005" value="un"/>
+          <ownedRelations xsi:type="CapellaRequirements:CapellaOutgoingRelation" id="41d64d29-425e-4637-bfcc-8880bab70806"
+              relationType="#837f4117-0577-4492-8560-943518e4818d" relationTypeProxy="Polarion link"
+              source="#d1be5106-068e-44a3-a88e-7ae299a3a87f" target="#797a585d-a03f-4b42-9143-9d5c82b1da8b"/>
         </ownedRequirements>
       </ownedExtensions>
     </ownedExtensions>
